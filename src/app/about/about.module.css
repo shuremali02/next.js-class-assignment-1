@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6dcb6; /* Equivalent to Tailwind's amber-100 */
+    min-height: 100vh;
+    padding-top: 36px;
+  }
+  
+  .title {
+    font-size: 3rem; /* Equivalent to text-5xl */
+    text-decoration: underline;
+  }
+  
+  .imagecontainer {
+    padding-top: 20px;
+  }
+  
+  .profileimage {
+    border-radius: 1.5rem; /* Equivalent to rounded-2xl */
+  }
+  
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.25rem; /* Equivalent to text-xl */
+    margin-top: 20px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  

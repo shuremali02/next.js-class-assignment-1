@@ -1,0 +1,90 @@
+/* Navbar container */
+.container {
+    background-color: #d97706; /* Equivalent to bg-amber-700 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px; /* Equivalent to p-6 */
+    position: relative;
+  }
+  
+  /* Logo styles */
+  .logo {
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Desktop links (hidden on mobile) */
+  .linksdesktop {
+    display: none;
+  }
+  
+  .linksdesktop  {
+    display: inline;
+    margin-right: 32px; /* Equivalent to space-x-8 */
+    font-weight: 600; /* Equivalent to font-semibold */
+  }
+  
+  .inksdesktop {
+    color: #fef3c7; /* Equivalent to text-amber-100 */
+    text-decoration: none;
+  }
+  
+  .linksdesktop:hover {
+    text-decoration: underline;
+  }
+  
+  /* Mobile menu button */
+  .togglebtn {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+  
+  .togglebtn {
+    background-color: #fcd34d; /* Equivalent to bg-amber-300 */
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Mobile navigation (only visible when open) */
+  .mobilenav {
+    position: absolute;
+    top: 64px; /* Equivalent to top-16 */
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: #34d399; /* Equivalent to text-emerald-300 */
+    text-align: center;
+    padding-top: 16px; /* Equivalent to py-4 */
+    padding-bottom: 16px;
+  }
+  
+  .mobilelinks {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Equivalent to gap-4 */
+  }
+  
+  .mobilelinks{
+    color: #34d399; /* Equivalent to text-emerald-300 */
+    text-decoration: none;
+  }
+  
+  .navbarmobilelinks:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive styles for desktop */
+  @media (min-width: 768px) {
+    .linksdesktop {
+      display: flex;
+      flex-grow: 1;
+      justify-content: center;
+    }
+  
+    .toggle-btn {
+      display: none;
+    }
+  }
+  
