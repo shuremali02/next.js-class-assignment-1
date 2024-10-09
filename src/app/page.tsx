@@ -8,7 +8,7 @@ export default function Home() {
     <div className={Style.container}>
       
       <div className={Style.text}>
-        <h1 className={Style.title}>Hello, I'm</h1>
+        <h1 className={Style.title}>Hello, I&#39;m</h1>
         <p className={Style.subtitle}>Frontend Developer</p>
         <p className={Style .description}>At the heart of this space is Syed Shurem Ali, a dedicated front-end developer with over 2.5 years of experience creating engaging, user-friendly interfaces.</p>
         <p>
